@@ -1,0 +1,79 @@
+#bodybg{
+	background-image: url("Image/rain.gif");
+	background-size: 100%;
+    background-repeat: no-repeat;
+	color:#FFFFFF;
+}
+
+#header, #home, h2{
+	text-align:center;
+}
+h4{
+	padding:10px 70px;
+}
+#navigation{
+	height: 80%;
+    width: 40%;
+	float:left;
+}
+#navigation ul{
+	list-style-type:none;
+}
+#navigation ul li{
+padding:30px;
+display: inline-block;
+}
+#navigation ul li button{
+	border: 3px solid;
+	height: 130px;
+	width:130px;
+	background-color: #00486a;
+	opacity:0.5;
+	padding-top:10px;
+	border-radius: 100%;
+	
+}
+
+#main
+{
+	height:90%;
+	width:60%;
+	float:right;
+	padding-top:50px;
+}
+
+#home, #exp, #cert,#edu,#skill,#contact,#devskilldiv,#adminskilldiv{
+	display:none;
+}
+
+#contact{
+		padding:20px;
+		text-align:center;
+}
+.contacticon{
+	height:50px;
+	width:50px;
+}
+.skillsicon{
+	height:20px;
+	width:20px;
+}
+#profiles{
+	padding-top:75px;
+}
+.profiles{
+	height:80px;
+	width:100px;
+	padding-left:30px;
+}
+#skill .skillbtn{
+	height: 50px;
+	width:600px;
+	background-color: #00486a;
+	opacity:0.5;
+	text-align:center;
+}
+#skill p,h5{
+	 padding-left:30px;
+	 line-height:25px;
+}
